@@ -18,10 +18,10 @@ const ProjectCard = ({
   handleClick,
 }) => {
   return (
-    <motion.div
+    <div
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
       className={`relative ${ 'lg:flex-[3.5] flex-[10]'
-      } flex items-center justify-center min-w-[500px] 
+      } flex items-center justify-center min-w-[450px] 
       h-[420px] cursor-pointer card-shadow`}>
       <div
         className="absolute top-0 left-0 z-10 bg-jetLight 
@@ -33,8 +33,7 @@ const ProjectCard = ({
         className="absolute w-full h-full object-cover rounded-[24px]"
       />
 
-     (
-        <>
+    
           <div
             className="absolute bottom-0 p-8 justify-start w-full 
             flex-col bg-[rgba(122,122,122,0.5)] rounded-b-[24px] z-20">
@@ -92,9 +91,9 @@ const ProjectCard = ({
               LIVE DEMO
             </button>
           </div>
-        </>
-      )
-    </motion.div>
+        
+      
+    </div>
   );
 };
 
@@ -109,7 +108,7 @@ const Projects = () => {
       </motion.div>
 
       <div className="w-full flex">
-        <motion.p
+        <p
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
           These projects demonstrate my expertise with practical examples of
@@ -117,7 +116,7 @@ const Projects = () => {
           repositories and live demos. They showcase my ability to tackle
           intricate challenges, adapt to various technologies, and efficiently
           oversee projects.
-        </motion.p>
+        </p>
       </div>
 
       <motion.div
