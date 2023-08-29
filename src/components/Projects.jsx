@@ -20,7 +20,7 @@ const ProjectCard = ({
   return (
     <motion.div
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
-      className={`relative ${ 'lg:flex-[0.5] flex-[2]'
+      className={`relative ${ 'lg:flex-[3.5] flex-[10]'
       } flex items-center justify-center min-w-[500px] 
       h-[420px] cursor-pointer card-shadow`}>
       <div
@@ -128,7 +128,7 @@ const Projects = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col`}>
         {/* <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5"> */}
         <div className="mt-[50px] min-h-[70vh]">
-          <div className="flex flex-wrap gap-12">
+          <div className="flex flex-wrap gap-5">
           {projects.map((project, index) => (
             <ProjectCard
               key={project.id}
