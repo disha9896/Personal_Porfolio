@@ -37,12 +37,13 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        I am a passionate and hardworking human with strong expertise and expierence of 2+ years in Artificial Intelligence, 
+        Machine Learning, Computer Vision and Python Development. I have completed my masters of science in Artificial Intelligence
+        and Machine Learning and pursuing my second Masters of science in Data Science. I Love to Learn new things and take new
+        challenges. In my free time you will find me researching, cooking, travelling, playing games and painting. 
+        <br></br>
+        What sets me different? Apart from technical skills, I am great communicator, team worker and problem solver. I am also 
+        creative which is unique among the engineers and that helps me think differently and solve problems with different perspective.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

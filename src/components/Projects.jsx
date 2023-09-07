@@ -24,8 +24,7 @@ const ProjectCard = ({
       } flex items-center justify-center min-w-[450px] 
       h-[420px] cursor-pointer card-shadow`}>
       <div
-        className="absolute top-0 left-0 z-10 bg-jetLight 
-      h-full w-full opacity-[0.5] rounded-[24px]"></div>
+        className="absolute top-0 left-0 z-10 bg-jetLight h-full w-full opacity-[0.2] rounded-[24px]"></div>
 
       <img
         src={image}
@@ -82,13 +81,8 @@ const ProjectCard = ({
                   .querySelector('.btn-icon')
                   .setAttribute('src', pineapple);
               }}>
-              <img
-                src={pineapple}
-                alt="pineapple"
-                className="btn-icon sm:w-[34px] sm:h-[34px] 
-                  w-[30px] h-[30px] object-contain"
-              />
-              LIVE DEMO
+            
+              PRESENTATION
             </button>
           </div>
         
@@ -113,7 +107,7 @@ const Projects = () => {
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
           These projects demonstrate my expertise with practical examples of
           some of my work, including brief descriptions and links to code
-          repositories and live demos. They showcase my ability to tackle
+          repositories and Presentations. They showcase my ability to tackle
           intricate challenges, adapt to various technologies, and efficiently
           oversee projects.
         </p>

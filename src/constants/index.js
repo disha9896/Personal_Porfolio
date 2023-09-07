@@ -42,7 +42,18 @@ import {
   mongodb,
   django,
   flask,
-  
+  banana,
+  person,
+  prosecutors,
+  research,
+  notes,
+  poker,
+  reid_pdf,
+  banana_pdf,
+  research_pdf,
+  lawyer_pdf,
+  notes_pdf,
+
 } from '../assets';
 
 export const navLinks = [
@@ -66,19 +77,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Data Science',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Deep Learning',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Computer Vision',
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Software Engineering',
     icon: prototyping,
   },
 ];
@@ -201,15 +212,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
+    image: person,
     repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    demo: reid_pdf,
   },
   {
     id: 'project-2',
     name: 'Ripening  Classification',
     description:
-      'The process of detecting a banana within an image and classifying it as either naturally or artificially ripened, utilizing data gathered from markets and farms.',
+      'The process of detecting a banana within an image and classifying it as either naturally or artificially ripened.',
     tags: [
       {
         name: 'react',
@@ -224,14 +235,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: banana,
+    repo: 'https://github.com/disha9896/Banana_classification',
+    demo: banana_pdf,
   },
   {
     id: 'project-3',
     name: 'Research Work',
-    description: 'The research aimed at creating an algorithm for initializing the initial cluster centers and automatically calculating the number of clusters to form for K-Means algorithm.',
+    description: 
+    'Created an algorithm to automatically calculate number of clusters for K-Means algorithm and initializing initial clusters',
     tags: [
       {
         name: 'nextjs',
@@ -246,14 +258,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: research,
+    repo: 'https://github.com/disha9896/Initial_centroid_kmeans-clusters-',
+    demo: research_pdf,
   },
   {
     id: 'project-4',
     name: 'Prosecutors Portal',
-    description: `A website for public prosecutors to register and manage their cases, calendar, case studies, and notifications. An election module is also included for prosecutors to hold positions. An admin portal is available to manage the website's functionality. The website also has a forum to ask and answer questions about cases.`,
+    description: `A website for public prosecutors to register and manage their cases, calendar, case studies, and notifications.`,
     tags: [
       {
         name: 'nextjs',
@@ -268,15 +280,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    image: prosecutors,
+    repo: 'https://github.com/disha9896/prosecutor-portal',
+    demo: lawyer_pdf,
   },
   {
     id: 'project-5',
     name: 'Souvenir',
     description:
-      'An application similar to Google Keep which uses a MySQL database to store and retrieve notes, reminders, doodles. This application allows users to share notes with other users and set reminders to be sent via email. It also includes a feature of doodling and adding images to the notes. This application provides a convenient way to organize and share notes, reminders and doodles with others.',
+      'Java based web application similar to google keep. It can store notes, doodle, set email alerts and much more',
     tags: [
       {
         name: 'nextjs',
@@ -291,15 +303,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: notes,
+    repo: 'https://github.com/disha9896/Notes_Management',
+    demo: notes_pdf,
   },
   {
     id: 'project-6',
     name: 'Teen Patti',
     description:
-      '',
+      'Indian poker game web application which is very challanging but yet fun application.',
     tags: [
       {
         name: 'nextjs',
@@ -314,33 +326,10 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
+    image: poker,
+    repo: 'https://github.com/disha9896/teenpatti/tree/main',
     demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  },
-  {
-    id: 'project-7',
-    name: 'Teen Patti',
-    description:
-      '',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  },
+  }
 ];
 
 export { services, technologies, experiences, projects };
