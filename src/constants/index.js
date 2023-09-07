@@ -147,14 +147,14 @@ const technologies = [
     name: 'MongoDB',
     icon: mongodb,
   },
-  {
-    name: 'HTML',
-    icon: html,
-  },
-  {
-    name: 'CSS',
-    icon: css,
-  },
+  // {
+  //   name: 'HTML',
+  //   icon: html,
+  // },
+  // {
+  //   name: 'CSS',
+  //   icon: css,
+  // },
   {
     name: 'Java Script',
     icon: javascript,
@@ -167,6 +167,7 @@ const technologies = [
     name: 'Flask',
     icon: flask,
   },
+  
 ];
 
 const experiences = [
@@ -328,7 +329,7 @@ const projects = [
     ],
     image: poker,
     repo: 'https://github.com/disha9896/teenpatti/tree/main',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    demo: 'https://github.com/disha9896/teenpatti/tree/main',
   }
 ];
 
